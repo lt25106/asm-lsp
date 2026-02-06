@@ -47,5 +47,5 @@ jobs:
           bin: asm-lsp
           target: ${{ matrix.target }}
           tar: unix
-          # zip: windows
+          zip: windows
           token: ${{ secrets.GITHUB_TOKEN }}
